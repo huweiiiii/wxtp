@@ -1,0 +1,83 @@
+<view class="container">
+  <swiper autoplay="true" interval="5000" duration="500">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="search_box box">
+    <view class="search_icon">
+      <icon type="search" size="16" />
+    </view>
+    <input placeholder-class="search_ph" class="search_input" type='text' placeholder='输入编号搜索送礼' />
+  </view>
+  <view class='web_data box'>
+    <view class='web_data_item_l'>
+      <view>已报名</view>
+      <view class="web_data_num">45234</view>
+    </view>
+    <view class='web_data_item'>
+      <view>累计礼物</view>
+      <view class="web_data_num">45234</view>
+    </view>
+    <view class='web_data_item_r'>
+      <view>已报名</view>
+      <view class="web_data_num">45234</view>
+    </view>
+  </view>
+  <view class="time_out_title box">
+    <view>活动倒计时</view>
+  </view>
+  <view class="time_out box">
+    <view><text class='time_out_font'>5</text>天<text class='time_out_font'>6</text>小时<text class='time_out_font'>45</text>分<text class='time_out_font'>15</text>秒</view>
+  </view>
+  <view class='sign_detail box'>
+    <view class='sign'> <image></image> 我要报名</view>
+    <view class='detail'> <image></image> 活动详情</view>
+  </view>
+  <view class='prize_box'>
+    <view class='prize_left_border'></view>
+    <view class='prize_list' id="prize_list" scroll-top="20rpx">
+      <view id="prize_list_box" style="transform: translateY(-{{scrollT}}rpx)">
+        <view class="prize_single" wx:for="{{prizeLists}}" wx:key="id">
+          <view class='prize_name'>{{item.name}}</view>
+          <view class='prize_detail'>{{item.prize}}</view>
+        </view>
+      </view>
+    </view>
+    <view class='prize_right_border'></view>
+    <view class='gradient_top'></view>
+    <view class='gradient_bottom'></view>
+  </view>
+  <view class='activity_title'>
+    <view class='triangleL'></view>
+    <view class='activity_title_text'>参赛选手</view>
+    <view class='triangleR'></view>
+  </view>
+  <view class='player_box'>
+
+    <view class='player_item'>
+      <image class='player_item_img' src='../../images/player_0.png'/>
+      <view class='player_info'>
+        <view class='player_name'>丰田和国防部</view>
+        <view class='player_introfuce'>地图和商人提供方便电话过生日更换部分个人</view>
+        <view class='player_bottom'>
+          <view class='player_num_no'>
+            <view class='player_num'>
+              <view class='player_num_txt'>编   号:</view> 
+              <view class='player_num_data'>54545</view>
+            </view>
+            <view class='player_no'>
+              <view class='player_no_txt'>礼物点:</view>
+              <view class='player_no_data'>54545</view>
+            </view>
+          </view>
+          <view class='gift_circle_btn'>礼物</view>
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+</view>

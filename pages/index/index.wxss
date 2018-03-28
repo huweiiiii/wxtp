@@ -1,0 +1,49 @@
+/**index.wxss**/
+.search_box{  height: 80rpx;  background-color: #fff;  margin: 30rpx auto;  width: 690rpx;  border:#E3E3E3 1rpx solid; }
+.search_icon{  width: 100rpx;text-align: center; }
+.search_input{  width: 580rpx; }
+.search_ph{ font-size: 30rpx;color: #999; }
+.web_data{ height: 140rpx;width: 690rpx;margin: 0 auto;background-color:#fff;text-align: center;box-shadow: 0 4px 5px #eee;  }
+.web_data_item,.web_data_item_l,.web_data_item_r{  width: 229rpx;font-size: 30rpx;line-height: 50rpx;}
+.web_data_item_r{  border-left: 1rpx #F6F6F6 solid; }
+.web_data_item_l{  border-right: 1rpx #F6F6F6 solid; }
+.web_data_num{ color: #999; }
+.time_out_title{ text-align: center;font-size: 30rpx;height:120rpx; }
+.time_out{ height: 120rpx;background-color: #FFE6CF;font-size: 36rpx; }
+.time_out view{ height: 80rpx;width: 400rpx;background-color: #FFFAE4;color: #FF9C41;line-height: 80rpx;text-align: center;border-radius: 40rpx; }
+.time_out_font{ font-weight: bold }
+.sign_detail{ height: 120rpx;background-color: #fff; }
+.sign,.detail{ font-size: 36rpx;width: 330rpx;text-align: center; }
+.detail{ border-left: 2rpx #E8E8E8 solid; }
+.sign{ border-right: 2rpx #E8E8E8 solid; }
+.sign image,.detail image{ height: 40rpx;width: 30rpx; }
+.prize_box{ width: 660rpx;margin: 30rpx auto;display: flex;justify-content: center;height: 160rpx;align-items: center;position: relative; }
+.prize_list{  flex-direction: column; height: 120rpx;width: 540rpx;margin: 0 auto;overflow: hidden;font-size: 30rpx; }
+.prize_single{ display: flex;justify-content: center;height: 40rpx;font-size: 30rpx; }
+.prize_name,.prize_detail{ flex-direction: column;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; }
+.prize_name{ width: 200rpx; }
+.prize_detail{ width: 300rpx; }
+.gradient_top,.gradient_bottom{ width: 600rpx;height: 90rpx;position: absolute; }
+.gradient_top{ top: -8rpx; right: 0;background: linear-gradient(to bottom, rgba(250,250,250,1), rgba(255,0,0,0)); }
+.gradient_bottom{ bottom: -8rpx;left: 0;background: linear-gradient(to top, rgba(250,250,250,1), rgba(255,0,0,0)); }
+.prize_left_border,.prize_right_border{ flex-direction: column;height: 160rpx;width: 60rpx; }
+.prize_left_border{ border-left: 8rpx #EDEDED solid;border-top: 8rpx #EDEDED solid; }
+.prize_right_border{ border-right: 8rpx #EDEDED solid;border-bottom: 8rpx #EDEDED solid; }
+.activity_title{ height: 100rpx;display: flex;justify-content: center;align-items: center;font-size: 36rpx;line-height: 100rpx; }
+.activity_title_text{ width: 170rpx;text-align: center; }
+.triangleL{ width: 0; height: 0; border-top: 15rpx solid transparent; border-right: 30rpx solid #E1E1E1; border-bottom: 15rpx solid transparent;  }
+.triangleR{ width: 0; height: 0; border-top: 15rpx solid transparent; border-left: 30rpx solid #E1E1E1; border-bottom: 15rpx solid transparent; }
+.player_box{ height: auto;display: flex;flex-wrap: wrap;width: 720rpx;margin: 0 auto;justify-content: space-between; }
+.player_item{ width: 350rpx;min-height: 400rpx;background-color: white;border-radius: 6rpx;box-shadow: 0 4px 8px #eee; }
+.player_item_img{ width: 350rpx; }
+.player_name{ font-size: 38rpx;height: 70rpx;line-height: 70rpx; }
+.player_introfuce{ font-size: 28rpx;max-height: 100rpx;overflow: hidden;line-height: 36rpx;padding-top:10rpx;padding-bottom: 10rpx;color: #999;  }
+.player_bottom{ display: flex; }
+.player_info{ padding: 0 20rpx;text-align: justify; }
+.player_num_no{ font-size: 28rpx;width: 210rpx; }
+.player_num,.player_no{ display: flex; }
+.player_num_txt,.player_no_txt,.player_num_data,.player_no_data{ flex-direction: column; }
+.player_num_txt,.player_no_txt{ width: 100rpx;text-align: justify;color: #999; }
+.player_no_data{ color: #FFBA13; }
+.player_num_txt{ white-space: pre; }
+.gift_circle_btn{ height: 100rpx;width: 100rpx;background-color: #FF8F5A;line-height: 100rpx;text-align: center;color: white;font-size: 42rpx;border-radius: 50%;transform: translateY(40rpx) translateX(20rpx) }
